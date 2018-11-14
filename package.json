@@ -1,0 +1,31 @@
+{
+  "name": "advanced-rich-text-tools",
+  "version": "1.1.0",
+  "description": "Advanced Rich Text Tools",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "parcel watch index.js",
+    "build": "parcel build index.js",
+    "test": "standard --fix"
+  },
+  "keywords": [
+    "Gutenberg",
+    "advanced",
+    "rich text",
+    "editor",
+    "formatting",
+    "writing"
+  ],
+  "author": "Ella Van Durpe",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@wordpress/babel-preset-default": "^2.1.0",
+    "parcel-bundler": "^1.10.1",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs2": "^7.1.2"
+  }
+}

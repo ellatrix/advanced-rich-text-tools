@@ -4,11 +4,11 @@
  * Plugin Name: Advanced Rich Text Tools for Gutenberg
  * Plugin URI: https://wordpress.org/plugins/advanced-rich-text-tools/
  * Description: Adds additional tools for rich text fields such as superscript and subscript.
- * Version: 1.1.0
+ * Version: 1.2.0
  * Author: Ella Van Durpe
  */
 
-add_action( 'init', function() {
+add_action( 'enqueue_block_editor_assets', function() {
 	wp_enqueue_script(
 		'advanced-rich-text-tools',
 		plugins_url( 'dist/index.js', __FILE__ ),

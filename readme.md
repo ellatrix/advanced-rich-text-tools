@@ -2,10 +2,10 @@
 
     Contributors:      iseulde, wordpressdotorg
     Tags:              Gutenberg, advanced, rich text, editor, formatting, writing
-    Requires at least: 4.9
+    Requires at least: 5.1
     Requires PHP:      5.3
-    Tested up to:      5.0
-    Stable tag:        1.1.0
+    Tested up to:      5.2
+    Stable tag:        1.2.0
     License:           GPL-2.0-or-later
     License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 

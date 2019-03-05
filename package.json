@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "start": "parcel watch index.js",
-    "build": "parcel build index.js",
+    "build": "parcel build index.js && npm run po2json",
+    "po2json": "node tools/po2json.js advanced-rich-text-tools advanced-rich-text-tools dist/languages",
     "test": "standard --fix"
   },
   "keywords": [
@@ -22,7 +23,9 @@
   "devDependencies": {
     "@babel/core": "^7.1.0",
     "@wordpress/babel-preset-default": "^2.1.0",
+    "fs-extra": "^7.0.1",
     "parcel-bundler": "^1.10.1",
+    "po2json": "^1.0.0-alpha",
     "standard": "^12.0.1"
   },
   "dependencies": {

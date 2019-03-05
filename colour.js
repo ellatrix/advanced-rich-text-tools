@@ -1,3 +1,6 @@
+import { I18N_NAMESPACE } from './constants'
+
+const { __ } = window.wp.i18n
 const { createElement } = window.wp.element
 const { registerFormatType, applyFormat, removeFormat, getActiveFormat } = window.wp.richText
 const { InspectorControls, PanelColorSettings } = window.wp.editor;
@@ -5,11 +8,11 @@ const { InspectorControls, PanelColorSettings } = window.wp.editor;
 [
   {
     name: 'color',
-    title: 'Inline Text Colour'
+    title: __('Inline Text Colour', I18N_NAMESPACE)
   },
   {
     name: 'background-color',
-    title: 'Inline Background Colour'
+    title: __('Inline Background Colour', I18N_NAMESPACE)
   }
 ].forEach(({ name, title }) => {
   const type = `advanced/${name}`
@@ -52,7 +55,7 @@ const { InspectorControls, PanelColorSettings } = window.wp.editor;
 
                   onChange(removeFormat(value, type))
                 },
-                label: 'Apply colour to the selected text.'
+                label: __('Apply colour to the selected text.', I18N_NAMESPACE)
               }
             ]
           })

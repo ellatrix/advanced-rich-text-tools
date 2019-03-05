@@ -30,4 +30,9 @@ add_action( 'enqueue_block_editor_assets', function() {
 		array(),
 		filemtime( dirname( __FILE__ ) . '/index.css' )
 	);
+	wp_set_script_translations(
+		'advanced-rich-text-tools',
+		'advanced-rich-text-tools',
+		plugin_dir_path( __FILE__ ) . 'dist/languages'
+	);
 } );

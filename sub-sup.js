@@ -1,3 +1,6 @@
+import { I18N_NAMESPACE } from './constants'
+
+const { __ } = window.wp.i18n
 const { createElement, Fragment } = window.wp.element
 const { registerFormatType, toggleFormat } = window.wp.richText
 const { RichTextToolbarButton, RichTextShortcut } = window.wp.editor;
@@ -5,12 +8,12 @@ const { RichTextToolbarButton, RichTextShortcut } = window.wp.editor;
 [
   {
     name: 'sup',
-    title: 'Superscript',
+    title: __('Superscript', I18N_NAMESPACE),
     character: '.'
   },
   {
     name: 'sub',
-    title: 'Subscript',
+    title: __('Subscript', I18N_NAMESPACE),
     character: ','
   }
 ].forEach(({ name, title, character, icon }) => {

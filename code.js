@@ -1,5 +1,3 @@
-import { I18N_NAMESPACE } from './constants'
-
 const { __ } = window.wp.i18n
 const { createElement, Fragment } = window.wp.element
 const { registerFormatType, unregisterFormatType, toggleFormat } = window.wp.richText
@@ -9,7 +7,7 @@ const type = 'core/code'
 
 unregisterFormatType(type)
 registerFormatType(type, {
-  title: __('Code', I18N_NAMESPACE),
+  title: __('Code'),
   tagName: 'code',
   className: null,
   edit ({ isActive, value, onChange }) {
@@ -24,7 +22,7 @@ registerFormatType(type, {
         }),
         createElement(RichTextToolbarButton, {
           icon: 'editor-code',
-          title: __('Code', I18N_NAMESPACE),
+          title: __('Code'),
           onClick: onToggle,
           isActive,
           shortcutType: 'access',

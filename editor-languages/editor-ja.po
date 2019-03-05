@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: advanced-rich-text-tools\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2019-03-06 00:37+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Yuta Haga <yutahaga7@gmail.com>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: *.php\n"
+
+#: code.js:12 code.js:27
+msgid "Code"
+msgstr "コード"
+
+#: colour.js:11
+msgid "Inline Text Colour"
+msgstr "インライン文字色"
+
+#: colour.js:15
+msgid "Inline Background Colour"
+msgstr "インライン背景色"
+
+#: colour.js:58
+msgid "Apply colour to the selected text."
+msgstr "選択した色を文字に適用します。"
+
+#: remove.js:12
+msgid "Remove formatting"
+msgstr "書式の削除"
+
+#: remove.js:19
+msgid "Remove Formatting"
+msgstr "書式の削除"
+
+#: remove.js:25
+msgid "Remove All formatting"
+msgstr "すべての書式を削除"
+
+#: sub-sup.js:11
+msgid "Superscript"
+msgstr "上付き文字"
+
+#: sub-sup.js:16
+msgid "Subscript"
+msgstr "下付き文字"

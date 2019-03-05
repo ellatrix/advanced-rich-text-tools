@@ -1,6 +1,6 @@
+const { __ } = window.wp.i18n
 const { createElement, Fragment } = window.wp.element
 const { registerFormatType, unregisterFormatType, toggleFormat } = window.wp.richText
-const { __ } = window.wp.i18n
 const { RichTextToolbarButton, RichTextShortcut } = window.wp.editor
 
 const type = 'core/code'
